@@ -18,23 +18,18 @@ header.hero {
   padding: 3rem 1rem;
   background: linear-gradient(180deg, #FFFFFF, #C5A4FF);
   color: #0B5510;
-  animation: glow 2.5s infinite ease-in-out;
+  animation: glow 1.5s infinite ease-in-out;
 }
 
 @keyframes glow {
   0%,
-  18%,
-  22%,
-  25%,
-  53%,
-  57%,
   100% {
     opacity: 1;
+    filter: brightness(1);
   }
-  20%,
-  24%,
-  55% {
+  50% {
     opacity: 0.7;
+    filter: brightness(1.4);
   }
 }
 
@@ -89,7 +84,7 @@ footer {
 
 /* ==== Individual Animations ==== */
 
-/* Floating Wanda (keyframe animation) */
+/* Floating Wanda */
 .Wanda img{
   animation: floaty 4s ease-in-out infinite;
 }
@@ -104,7 +99,7 @@ footer {
   }
 }
 
-/* Flickering Lantern */
+/* Cosmo Floating */
 .Cosmo img {
   animation: floaty 4s ease-in-out infinite;
 }
@@ -119,7 +114,7 @@ footer {
   }
 }
 
-/* Timmy Turner on Hover */
+/* Timmy Turner */
 .Timmy Turner:hover {
   box-shadow: 0 0 60px 10px rgba(0, 255, 145, 0.8);
 }

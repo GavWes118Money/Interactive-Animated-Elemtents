@@ -54,6 +54,15 @@ footer {
   gap: 2rem;
 }
 
+/* Enhancements for larger screens*/
+@media (max-width: 600px) {
+  .content-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center:}
+    grid-template-columns: 3fr;
+}
+
 .card {
   background-color: #B259FF;
   border: 2px solid #FFFFFF;
